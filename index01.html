@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Расписание занятий — Алексеева Анна</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="brand">Учебный проект · Основы веб-разработки</div>
+    <h1>Расписание занятий</h1>
+    <p>Пример таблицы с учебной нагрузкой на неделю</p>
+    <nav class="nav" aria-label="Основная навигация">
+      <a href="index.html">Главная</a>
+      <a class="active" aria-current="page" href="index01.html">Расписание</a>
+      <a href="index02.html">CSS на практике</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero schedule-hero">
+      <div class="schedule-copy">
+        <div class="eyebrow">Учебная неделя</div>
+        <h2>План занятий</h2>
+        <p>Ниже приведён пример расписания. Таблица свёрстана с использованием семантической разметки и оформлена общей таблицей стилей.</p>
+      </div>
+      <figure class="schedule-photo">
+        <img src="assets/study.jpg" alt="Ноутбук, блокнот и планер на рабочем столе студента">
+        <figcaption>Подготовка к учебной неделе</figcaption>
+      </figure>
+    </section>
+
+    <section class="card">
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">День</th>
+              <th scope="col">Время</th>
+              <th scope="col">Предмет</th>
+              <th scope="col">Аудитория</th>
+              <th scope="col">Преподаватель</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td class="day">Понедельник</td><td>09:00–10:30</td><td>Основы веб-разработки</td><td>204</td><td>Иванова М. С.</td></tr>
+            <tr><td class="day">Понедельник</td><td>10:45–12:15</td><td>Информатика</td><td>312</td><td>Петров А. Н.</td></tr>
+            <tr><td class="day">Вторник</td><td>09:00–10:30</td><td>Русский язык и культура речи</td><td>118</td><td>Смирнова Е. В.</td></tr>
+            <tr><td class="day">Вторник</td><td>10:45–12:15</td><td>Математика</td><td>207</td><td>Кузнецов И. П.</td></tr>
+            <tr><td class="day">Среда</td><td>09:00–10:30</td><td>Физическая культура</td><td>Спортзал</td><td>Орлов Д. В.</td></tr>
+            <tr><td class="day">Среда</td><td>10:45–12:15</td><td>Основы веб-разработки</td><td>204</td><td>Иванова М. С.</td></tr>
+            <tr><td class="day">Четверг</td><td>09:00–10:30</td><td>История</td><td>105</td><td>Васильева О. А.</td></tr>
+            <tr><td class="day">Четверг</td><td>10:45–12:15</td><td>Информатика</td><td>312</td><td>Петров А. Н.</td></tr>
+            <tr><td class="day">Пятница</td><td>09:00–10:30</td><td>Математика</td><td>207</td><td>Кузнецов И. П.</td></tr>
+            <tr><td class="day">Пятница</td><td>10:45–12:15</td><td>Проектная практика</td><td>204</td><td>Иванова М. С.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="note">Данные в расписании являются учебным примером и могут быть заменены на собственные.</p>
+    </section>
+  </main>
+
+  <footer class="footer">Практическая работа по CSS · 2026</footer>
+</body>
+</html>
